@@ -1,0 +1,5 @@
+category: Math Perl
+requires: perl
+sdesc: "Perl module for number base conversion"
+ldesc: "BaseCnv provides a few simple functions for converting between 
+arbitrary number bases."

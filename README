@@ -1,0 +1,56 @@
+perl-Math-BaseCnv
+------------------------------------------
+BaseCnv provides a few simple functions for converting between 
+arbitrary number bases.
+
+Runtime requirements:
+  perl-5.8.7-5
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.2.11-1
+  make-3.81-1
+  perl-5.8.7-5
+
+Canonical website:
+  http://search.cpan.org/dist/Math-BaseCnv
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/P/PI/PIP/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Math-BaseCnv-1.2.59M7mRX-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Math-BaseCnv-1.2.59M7mRX-X.cygport all
+
+This will create:
+  /usr/src/perl-Math-BaseCnv-1.2.59M7mRX-X-src.tar.bz2
+  /usr/src/perl-Math-BaseCnv-1.2.59M7mRX-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Math-BaseCnv.sh
+  /usr/bin/cnv
+  /usr/lib/perl5/vendor_perl/5.8/Math/BaseCnv.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Math/BaseCnv/.packlist
+  /usr/share/doc/Cygwin/perl-Math-BaseCnv-1.2.59M7mRX.README
+  /usr/share/doc/perl-Math-BaseCnv-1.2.59M7mRX/README
+  /usr/share/man/man3/Math.BaseCnv.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Math-BaseCnv.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.2.59M7mRX-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
