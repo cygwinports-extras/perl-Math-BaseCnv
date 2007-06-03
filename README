@@ -21,15 +21,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Math-BaseCnv-1.2.59M7mRX-X-src.tar.bz2
+  unpack perl-Math-BaseCnv-1.4.75O6Pbr-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Math-BaseCnv-1.2.59M7mRX-X.cygport all
+  cygport ./perl-Math-BaseCnv-1.4.75O6Pbr-X.cygport all
 
 This will create:
-  /usr/src/perl-Math-BaseCnv-1.2.59M7mRX-X-src.tar.bz2
-  /usr/src/perl-Math-BaseCnv-1.2.59M7mRX-X.tar.bz2
+  /usr/src/perl-Math-BaseCnv-1.4.75O6Pbr-X-src.tar.bz2
+  /usr/src/perl-Math-BaseCnv-1.4.75O6Pbr-X.tar.bz2
 
 -------------------------------------------
 
@@ -39,14 +39,17 @@ Files included in the binary package:
   /usr/bin/cnv
   /usr/lib/perl5/vendor_perl/5.8/Math/BaseCnv.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Math/BaseCnv/.packlist
-  /usr/share/doc/Cygwin/perl-Math-BaseCnv-1.2.59M7mRX.README
-  /usr/share/doc/perl-Math-BaseCnv-1.2.59M7mRX/README
+  /usr/share/doc/Cygwin/perl-Math-BaseCnv-1.4.75O6Pbr.README
+  /usr/share/doc/perl-Math-BaseCnv-1.4.75O6Pbr/README
   /usr/share/man/man3/Math.BaseCnv.3pm.gz
   /usr/share/perl/cygwin-pods/5.8/Math-BaseCnv.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.4.75O6Pbr-1 -----
+Version bump.
 
 ----- version 1.2.59M7mRX-1 -----
 Initial release for Cygwin.
